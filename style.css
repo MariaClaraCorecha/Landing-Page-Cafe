@@ -2,5 +2,97 @@
     /*zerando configuração do css*/
     margin: 0%;
     padding: 0%;
+    font-family: Poppins, sans-serif;
     
+}
+
+header{ /*Estilizando todos os intens do Header*/
+    display: flex; 
+    justify-content:space-between;/*espaço entre os intens do header*/
+    align-items: center; /*alinha os intens no centro*/
+    background-color: #190d0b; /*cor de fundo*/
+    color: rgb(221, 180, 180);
+    font-style: italic;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+nav{ /*menu de navegação*/
+    display: flex;
+    gap: 20px;/*espaçamento entre eles*/
+}
+
+h1{
+    color: rgb(255, 224, 206);
+    cursor: pointer;
+}
+
+#titulo{
+    color: rgba(79, 5, 5, 0.901);
+    
+}
+
+body{ /*imagen de fundo do site*/
+    background-image: url(imagens/Café_e_grãos_2.jpg);
+    background-size: cover;
+    background-position: center; /*centraliza a imagen*/
+    background-repeat: no-repeat;
+
+}
+
+main{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+
+}
+
+.conteudo{
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 5px;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.navegar{
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.navegar:hover{
+    background-color: #3e312f4f;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+footer{
+    position: fixed; /* Fixa o rodapé no fundo */
+    bottom: 0; /* Posiciona no final da página */
+    left: 0; /* Alinha à esquerda */
+    width: 100%; /* Faz o rodapé ocupar toda a largura */
+    background-color: rgb(21, 9, 9); /* Cor de fundo do rodapé */
+    font-size: 16px;
+    padding: 10px;
+    text-align: center; /* Alinha o texto no centro */
+    color: rgb(143, 117, 117);
+
+}
+
+.footer{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 2px;
+
+}
+
+#rodape{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(143, 117, 117);
 }
